@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutterfooddelivery/src/Screens/Main_screen.dart';
+import 'package:flutterfooddelivery/src/Pages/Sign_in_page.dart';
 
 class MyApp extends StatelessWidget {
   @override
@@ -8,7 +9,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "food Delevery app",
       theme: ThemeData(primaryColor: Colors.blueAccent),
-      home: Main_screen(),
+      home: Sign_in(),
     );
   }
 }
